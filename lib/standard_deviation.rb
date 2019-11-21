@@ -1,7 +1,7 @@
 ages = [24, 30, 18, 20, 41]
 
 sum = 0
-ages.each { |ages| sum+= ages }
+ages.each { |age| sum+= ages }
 
 puts sum
 
@@ -18,7 +18,7 @@ puts divide_sum_of_ages_by_number_of_ages
 
   numbers = []
 
-  ages.each do |ages|
+  ages.each do |age|
 
   numbers << ages - divide_sum_of_ages_by_number_of_ages
 
@@ -30,12 +30,21 @@ puts numbers
   squared_numbers = []
 
 
-  squared_numbers = numbers.map do |numbers|
+  squared_numbers = numbers.map do |number|
     numbers ** 2
 
 end
 
 puts squared_numbers
+
+squared_sum = 0
+squared_numbers.map do |i| sum+= squared_numbers
+
+end
+
+puts squared_sum
+
+
 
 
 
