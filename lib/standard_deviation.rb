@@ -23,8 +23,7 @@ puts divide_sum_of_ages_by_number_of_ages
   numbers << ages - divide_sum_of_ages_by_number_of_ages
   end
 
-
-puts numbers.round
+puts numbers
 
 
 # When you find the standard deviation, print it out
